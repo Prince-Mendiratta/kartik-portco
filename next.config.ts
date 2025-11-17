@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  output: 'export',
+  basePath: process.env.PAGES_BASE_PATH,
 };
 
 export default nextConfig;
